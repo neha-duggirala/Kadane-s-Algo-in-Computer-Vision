@@ -1,4 +1,6 @@
-array =[-2, 1]
+import time
+begin = time.time()
+array =range(1000)
 size = len(array)
 max_ = array[0]
 for idx1 in range(size):
@@ -6,5 +8,6 @@ for idx1 in range(size):
         # print(sum(array[idx1:idx2]),(array[idx1:idx2]))
         max_ = max(sum(array[idx1:idx2]),max_)
 
-
 print(max_)
+end = time.time()
+print("Time elapsed: ", end - begin)
