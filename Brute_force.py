@@ -1,6 +1,6 @@
 import time
 begin = time.time()
-array =range(1000)
+array =range(1000) #2.7240288257598877
 size = len(array)
 max_ = array[0]
 for idx1 in range(size):

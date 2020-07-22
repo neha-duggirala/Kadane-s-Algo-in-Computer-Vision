@@ -1,29 +1,6 @@
 import time
 begin = time.time()
-array = [100,
-    8,
-    5,
-    -9,
-    1,
-    3,
-    -2,
-    3,
-    4,
-    7,
-    2,
-    -18,
-    6,
-    3,
-    1,
-    -5,
-    6,
-    20,
-    -23,
-    15,
-    1,
-    -3,
-    4
-  ]
+array = range(1000) #0.0009961128234863281
 size = len(array)
 currentMax, max_ = array[0],array[0]
 
